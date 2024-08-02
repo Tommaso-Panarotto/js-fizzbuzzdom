@@ -9,3 +9,15 @@
 body {
     font-family: sans-serif;
 }
+
+/*Utils*/
+
+/**BG Color*/
+.bg-aqua {
+    background-color: #083B4C;
+}
+
+/*Font Size*/
+.fts-big {
+    font-size: 100px;
+}

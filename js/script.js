@@ -7,9 +7,31 @@
 */
 
 // FASE PREPARATORIA
+// creo costanti
+const threeFizz = 'Fizz';
+const fiveBuzz = 'Buzz';
+const fizzBuzz = 'FizzBuzz';
+
 // creo variabili
 
 // CREO I NUMERI
 for (let i = 1; i <= 100; i++) {
-    console.log(i)
+
+    //controllo i resti sia di 5 che di 3
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log(fizzBuzz);
+        continue;
+    }
+    // controllo i resti di 3
+    else if (i % 3 === 0) {
+        console.log(threeFizz);
+        continue;
+    }
+    //controllo i resti di 5
+    else if (i % 5 === 0) {
+        console.log(fiveBuzz);
+        continue;
+    }
+    //mostro i numeri
+    console.log(i);
 }

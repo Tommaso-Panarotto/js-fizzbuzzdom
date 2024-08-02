@@ -5,3 +5,11 @@
 3. modifico con una scritta
 4. mostro in console
 */
+
+// FASE PREPARATORIA
+// creo variabili
+
+// CREO I NUMERI
+for (let i = 1; i <= 100; i++) {
+    console.log(i)
+}

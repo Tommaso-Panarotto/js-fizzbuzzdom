@@ -11,10 +11,35 @@ body {
 }
 
 /*Utils*/
+.list-mark {
+    list-style-type: none;
+}
 
 /**BG Color*/
 .bg-aqua {
     background-color: #083B4C;
+}
+
+.bg-blue {
+    background-color: #1389B2;
+}
+
+.bg-green {
+    background-color: #0BD6A1;
+}
+
+.bg-yellow {
+    background-color: #FFD166;
+}
+
+.bg-pink {
+    background-color: #F0466F;
+}
+
+/*Size*/
+.square-number {
+    height: 100px;
+    width: 100px;
 }
 
 /*Font Size*/
